@@ -13,8 +13,8 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Anggota</a>
         <div class="dropdown-menu" aria-labelledby="dropdown01">
-          <a class="dropdown-item" href="#">Tambah Anggota</a>
-          <a class="dropdown-item" href="#">Data Anggota</a>
+          <a class="dropdown-item" href="index.php?page=tambah_anggota">Tambah Anggota</a>
+          <a class="dropdown-item" href="index.php?page=anggota">Data Anggota</a>
         </div>
       </li>
     </ul>
@@ -23,7 +23,7 @@
         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Selamat Datang, Admin</a>
         <div class="dropdown-menu" aria-labelledby="dropdown01">
           <a class="dropdown-item" href="#">Ubah Password</a>
-          <a class="dropdown-item" href="#">Logout</a>
+          <a class="dropdown-item" href="logout.php">Logout</a>
         </div>
       </li>
     </ul>
